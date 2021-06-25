@@ -2,6 +2,8 @@ from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.feature_selection import SelectFromModel
+import pandas as pd
+import random
 
 def sample_inputs_generator(num):
     sample = [[] for _ in range(random.randint(1,5))]
