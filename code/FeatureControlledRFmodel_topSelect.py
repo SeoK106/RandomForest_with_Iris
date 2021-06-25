@@ -5,7 +5,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import random
-%matplotlib inline
 
 def select_features(features,num):
     top = features[:num].index.tolist()
